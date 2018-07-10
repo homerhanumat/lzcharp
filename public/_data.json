@@ -34,5 +34,17 @@
   },
   "draft-list": {
     "pageTitle": "Drafts"
+  },
+  "contact": {
+    "pageTitle": "Contact"
+  },
+  "thanks": {
+    "pageTitle": "Thanks!"
+  },
+  "contact-2": {
+    "pageTitle": "Contact Teacher"
+  },
+  "book-group": {
+    "pageTitle": "Book Group"
   }
 }

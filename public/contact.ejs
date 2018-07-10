@@ -1,0 +1,28 @@
+
+<body>
+    <%- partial("/partial/_nav") %>
+<div id="layout" class="pure-g">
+<article class="pure-u-1">
+<%- partial("/partial/_brand") %>
+
+
+<section>
+    <h2>Contact LZC</h2>
+    <form class="pure-form pure-form-stacked" action="https://formspree.io/homerhanumat@gmail.com" id="contact-form" method="post" role="form">
+      <fieldset>
+        <label for="name">Name &#42;</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required="required">
+        <label for="email">Email &#42;</label>
+        <input id="email" name="_replyto" type="text" placeholder="Your email" required="required">
+        <label for="message">Message &#42;</label>
+        <textarea id="message" name="message" placeholder="Enter your message here" rows="3" required="required"></textarea>
+        <button type="submit" class="pure-button pure-button-primary">Submit</button>
+      </fieldset>
+    </form>
+</section>
+
+  <%- partial("partial/_footer.html") %>
+
+</article>
+</div>
+</body>
