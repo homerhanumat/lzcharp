@@ -6,18 +6,11 @@
     "tags": "zen",
     "status": "draft"
   },
-  "dt-1": {
-    "pageTitle": "Dharma Talk",
-    "title": "Dharma Talk",
-    "date" : "April 11, 2017",
-    "tags": "zen",
-    "status": "published"
-  },
-  "dt-2" : {
-    "pageTitle": "Another Dharma Talk",
-    "title": "Another Dharma Talk",
-    "date" : "March 2, 2017",
-    "tags": "zen,prajna",
+  "dirty-dust-world": {
+    "pageTitle": "Getting Dirty with the Dust of the World",
+    "title": "Getting Dirty with the Dust of the World",
+    "date" : "June 19, 2016",
+    "tags": "zen,soen nakagawa,gardening",
     "status": "published"
   },
   "on-ritual" : {

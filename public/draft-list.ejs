@@ -9,7 +9,7 @@
 var allPosts = public.articles._data;
 var desired = {};
 for (var slug in allPosts) {
-  if (allPosts[slug].status === "published") {
+  if (allPosts[slug].status === "draft") {
     desired[slug] = allPosts[slug];
   }
 };
@@ -52,7 +52,7 @@ for (var i = 0; i< allTags.length; i++) {
 %>
 
 <section>
-    <h2>Posts</h2>
+    <h2>Drafts</h2>
     <div class="postlist">
         <% for (var slug in desired){ %>
           <div class="post", data-tags="<%= desired[slug].tags %>">

@@ -31,5 +31,8 @@
   },
   "donate": {
     "pageTitle": "Donate"
+  },
+  "draft-list": {
+    "pageTitle": "Drafts"
   }
 }
