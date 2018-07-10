@@ -1,0 +1,35 @@
+{
+  "index": {
+    "pageTitle": "Home"
+  },
+  "404": {
+    "pageTitle": "404"
+  },
+  "about": {
+    "pageTitle": "About Us"
+  },
+  "article-list": {
+    "pageTitle": "Articles"
+  },
+  "teachers": {
+    "pageTitle": "Our Teachers"
+  },
+  "history": {
+    "pageTitle": "Our History"
+  },
+  "sits": {
+    "pageTitle": "Sunday Sittings"
+  },
+  "resources": {
+    "pageTitle": "Resources"
+  },
+  "chants": {
+    "pageTitle": "Chants"
+  },
+  "sitting": {
+    "pageTitle": "Meditation"
+  },
+  "donate": {
+    "pageTitle": "Donate"
+  }
+}

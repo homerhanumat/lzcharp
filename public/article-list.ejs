@@ -1,0 +1,71 @@
+
+<body>
+    <%- partial("/partial/_nav") %>
+<div id="layout" class="pure-g">
+<article class="pure-u-1">
+<%- partial("/partial/_brand") %>
+
+<%
+var allTags = [];
+for (var slug in public.articles._data) {
+    var postTags=public.articles._data[slug].tags.split(',');
+    allTags = allTags.concat(postTags);
+}
+uniqueTags = allTags.filter(function(item, pos) {
+    return allTags.indexOf(item) == pos;
+});
+uniqueTags.sort();
+
+var counts = {};
+
+for (var i = 0; i< allTags.length; i++) {
+    var tag = allTags[i];
+    counts[tag] = counts[tag] ? counts[tag]+1 : 1;
+}
+%>
+
+<section class="">
+    <h2>Tags</h2>
+    <p class="taglist">
+
+        <% for (i=0; i < uniqueTags.length; i++) { %>
+
+        <span class="tag" onclick='filterTag("<%= uniqueTags[i] %>")'><%= uniqueTags[i] %></span>(<%= counts[uniqueTags[i]] %>)
+
+        <% }; %>
+
+    </p>
+  </section>
+
+<% function excerpt(content) {
+    if(content.indexOf("<!-- more -->") == -1) return content;
+    else return content.split("<!-- more -->")[0];
+} %>
+
+<section>
+    <h2>Posts</h2>
+    <div class="postlist">
+        <% for (var slug in public.articles._data){ %>
+        <div class="post", data-tags="<%= public.articles._data[slug].tags %>">
+            <h3><a href="articles/<%= slug %>.html"><%= public.articles._data[slug].title %></a></h3>
+            <div class="undertitle">
+                <span class="date"><%= public.articles._data[slug].date %></span>
+                <% var tags = public.articles._data[slug].tags.split(",");
+                for (var i = 0; i < tags.length; i++) { %>
+                <span class = "tag" onclick='filterTag("<%= tags[i] %>")'><%= tags[i] %></span>
+                <% }; %>
+                <div class="post-excerpt">
+                    <%- excerpt(partial("articles/" + slug)) %>
+                    <span><a class="blog-link" href="articles/<%= slug %>.html">Read More &hellip;</a></span>
+                </div>
+            </div>
+        </div>
+        <% }; %>
+    </div>
+  </section>
+
+  <%- partial("partial/_footer.html") %>
+
+</article>
+</div>
+</body>

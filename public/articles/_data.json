@@ -1,0 +1,30 @@
+{
+  "st-1": {
+    "pageTitle": "Student Talk",
+    "title": "A Student Talk",
+    "date" : "July 10, 2018",
+    "tags": "zen",
+    "status": "draft"
+  },
+  "dt-1": {
+    "pageTitle": "Dharma Talk",
+    "title": "Dharma Talk",
+    "date" : "April 11, 2017",
+    "tags": "zen",
+    "status": "published"
+  },
+  "dt-2" : {
+    "pageTitle": "Another Dharma Talk",
+    "title": "Another Dharma Talk",
+    "date" : "March 2, 2017",
+    "tags": "zen,prajna",
+    "status": "published"
+  },
+  "on-ritual" : {
+    "pageTitle": "On Ritual",
+    "title": "On Ritual",
+    "date" : "August 29, 2016",
+    "tags": "zen,ritual, seung sahn",
+    "status": "published"
+  }
+}
