@@ -4,6 +4,49 @@
 <div class="content pure-u-1 pure-u-md-2-3">
   <%- partial("partial/_nav") %>
   <%- partial("partial/_brand") %>
+
+
+<%
+  // read in published posts and convert to array,
+  // sort by date, write into script element
+  function toArray(obj) {
+    var arr = [];
+    for (var key in obj) {
+      var item = obj[key];
+      item.slug = key;
+      arr.push(item);
+    };
+    return arr;
+  }
+
+  var allPosts = public.articles._data;
+  var desired = {};
+  for (var slug in allPosts) {
+    if (allPosts[slug].status === "published") {
+      desired[slug] = allPosts[slug];
+    }
+  };
+
+  var arr = toArray(desired);
+  arr.sort(function(a, b) {
+    var dateA = new Date(a.date);
+    var dateB = new Date(b.date);
+    return dateB - dateA;
+  });
+
+  var postCount = Math.min(postListLimit, arr.length);
+%>
+
+<script>
+  var posts = [
+<%
+  for (var i = 0; i < postCount; i++) { %>
+    {slug:"<%- arr[i].slug %>",title:"<%- arr[i].title %>",date:"<%- arr[i].date %>"}
+    <% if (i < postCount - 1) {%>,<% }} %>
+  ];
+
+</script>
+
 <section>
     <h2>Welcome!</h2>
     <p>
@@ -85,7 +128,26 @@
 </div>
 </div>
 
-
+<script>
+  var toShow = posts.filter(function(post) {
+    var ms = new Date() - new Date(post.date);
+    var days = ms/(1000*60*60*24);
+    return days <= 60;
+  });
+  if (toShow.length > 0) {
+    var sidebar = document.querySelector(".sidebar");
+    var postSection = document.createElement("section");
+    postSection.classList.add("post-list");
+    var inner = "<h3>Recent Articles</h3>\n<ul>";
+    for (var i = 0; i < toShow.length; i++) {
+      inner += '<li><a href="/articles/' + toShow[i].slug + '.html">';
+      inner += toShow[i].title + '</a></li>\n';
+    }
+    inner += "</ul>";
+    postSection.innerHTML = inner;
+    sidebar.appendChild(postSection);
+  }
+</script>
 
 <%- partial("partial/_footer") %>
 

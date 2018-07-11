@@ -26,15 +26,14 @@
 
 
 
-
-  <link rel="stylesheet" href="/css/tufte-grid.css">
+  <link rel="stylesheet" href="/css/tufte.css">
+  <link rel="stylesheet" href="/css/hugo-tufte.css">
+  <link rel="stylesheet" href="/css/tufte-extra.css">
 
 </head>
 
 <body>
-<div id="layout" class="pure-g">
-<div class="content pure-u-1 pure-u-md-2-3">
-  
+    
 
 
 <div class="custom-wrapper pure-g" id="menu">
@@ -85,7 +84,9 @@
     </div>
 </div>
 
-  
+<div id="layout" class="pure-g">
+<article class="pure-u-1">
+
 <header class="brand">
   <h1>
     The Lexington Zen Center
@@ -102,102 +103,22 @@
 
 
 
-
-
-<script>
-  var posts = [
-
-    {slug:,title:,date:}
-    ,
-    {slug:,title:,date:}
-    
-  ];
-
-</script>
-
 <section>
-    <h2>Welcome!</h2>
-    <p>
-      The Lexington Zen Center is a non-profit organization affiliated 
-      with the 
-      <a href="http://www.furnacemountainzen.org/" target="_blank">
-        Furnace Mountain Zen Retreat Center</a> in Clay City, Kentucky.  
-        The Lexington Center provides a friendly and non-threatening 
-        environment for the pursuit of spiritual practice.
-    </p>
-    
-    
-    
-    <p>
-      We are Buddhist by lineage but we welcome persons of all faiths and spiritual persuasions.  In addition to regular Sunday meditation services, we have special Beginner days, a lively Book Group that meets roughly every other week, and we hold several day-long retreats each year.
-    </p>
+    <h2>Contact LZC</h2>
+    <form class="pure-form pure-form-stacked" action="https://formspree.io/homerhanumat@gmail.com" id="contact-form" method="post" role="form">
+      <fieldset>
+        <label for="name">Name &#42;</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required="required">
+        <label for="email">Email &#42;</label>
+        <input id="email" name="_replyto" type="text" placeholder="Your email" required="required">
+        <label for="message">Message &#42;</label>
+        <textarea id="message" name="message" placeholder="Enter your message here" rows="3" required="required"></textarea>
+        <button type="submit" class="pure-button pure-button-primary">Submit</button>
+      </fieldset>
+    </form>
 </section>
 
-<section>
-    <h2>Location</h2>
-    <p>We hold a meditation service every Sunday at <a href="http://mindoverbodystudio.com/" target="_blank">Mind Over Body</a>, a yoga studio located at 301 East Vine Street in Lexington, KY. A map for the studio appears below.</p>
-    
-    <div class="map-responsive" id="map"></div>
-    
-    <p>Sitting begins at 4:30pm and concludes by about 5:40pm.  Follow the links under the Practice menu to learn more about the Sunday sits, and if you are new try to arrive about fifteen minutes early.</p>
-    
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    
-        <script>
-    // Initialize and add the map
-    function initMap() {
-      // The location of Uluru
-      const latlong = {
-      lat: 38.041675,
-      lng: -84.493089
-    };
-      var map = new google.maps.Map(
-          document.getElementById('map'), {zoom: 10, center: latlong});
-      var marker = new google.maps.Marker({position: latlong, map: map});
-    }
-        </script>
-        <!--Load the API from the specified URL
-        * The async attribute allows the browser to render the page while the API loads
-        * The key parameter will contain your own API key (which is not needed for this tutorial)
-        * The callback parameter executes the initMap() function
-        -->
-        <script async defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNTi_NzU911cWRUnSDk2ftQ3mezjOp6t8&callback=initMap">
-        </script>
-</section>
-
-<section>
-    <h2>Learn More</h2>
-    <p>
-      Please follow the main menu to learn more about the Center, its 
-      history and lineage, and its ongoing events.  And do visit:  we 
-      will be happy to get to know you!</p>
-</section>
-
-</div>
-
-<div class="sidebar pure-u-1 pure-u-md-1-3">
-    <div class="epigraph">
-            <blockquote>
-                <p id="quotation"></p>
-            </blockquote>
-            <footer id="quote-source">
-            </footer>
-    </div>
-    <section>
-        <div class="twitter-timeline-wrapper">
-          <a class="twitter-timeline" data-height="250px" data-lang="en" href="https://twitter.com/lexingtonzen?ref_src=twsrc%5Etfw">Tweets by lexingtonzen</a>
-        </div>
-        <p>
-            Follow us on <a href="https://www.facebook.com/lexingtonzencenter/" target="_blank">Facebook<a>, too!
-        </a></a></p>
-    </section>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-</div>
-
-
-
-<footer class="page-footer">
+  <footer class="page-footer">
 		<hr class="footer-hr">
 		<ul class="page-footer-menu">
         <li><a href="/">Home</a></li>
@@ -219,6 +140,7 @@
 
 
 
-
+</article>
+</div>
 </body>
 </html>

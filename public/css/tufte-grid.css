@@ -464,6 +464,7 @@ header.brand hr {
   margin: 0 -0.25em -.25em -.25em;
   width: 87.5%;
   max-width: 45rem;
+  margin-bottom: 2em;
 }
 .post-list li {
   margin: 0;
@@ -520,6 +521,16 @@ footer.page-footer p {
 
   .copyright p {
       font-size: 90%;
+  }
+
+  footer.split-page {
+    padding-left: 2em;
+    box-sizing: border-box;
+  }
+
+  footer.split-page hr {
+    width: calc(100% + 1.85em);
+    margin-left: -2em;
   }
 
 /* ------------------------------------------------ */
