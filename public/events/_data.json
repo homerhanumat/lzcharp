@@ -1,0 +1,16 @@
+{
+  "summer-2018-potluck": {
+    "pageTitle": "summer-2018-potluck",
+    "title": "Potluck in the Park",
+    "date" : "August 10, 2018",
+    "status": "published",
+    "priority": "low"
+  },
+  "fall-2018-retreat": {
+    "pageTitle": "fall-2018-retreat",
+    "title": "Fall Retreat",
+    "date" : "November 20, 2018",
+    "status": "published",
+    "priority": "featured"
+  }
+}

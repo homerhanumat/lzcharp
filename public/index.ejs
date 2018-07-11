@@ -9,6 +9,7 @@
 <%
   // read in published posts and convert to array,
   // sort by date, write into script element
+  // similar for events
   function toArray(obj) {
     var arr = [];
     for (var key in obj) {
@@ -35,6 +36,24 @@
   });
 
   var postCount = Math.min(postListLimit, arr.length);
+  
+  var allEvents = public.events._data;
+  var desiredEvents = {};
+  for (var slug in allEvents) {
+    if (allEvents[slug].priority === "featured") {
+      desiredEvents[slug] = allEvents[slug];
+    }
+  };
+
+  var arrEvents = toArray(desiredEvents);
+  arrEvents.sort(function(a, b) {
+    var dateA = new Date(a.date);
+    var dateB = new Date(b.date);
+    return dateB - dateA;
+  });
+
+  var eventCount = arrEvents.length;
+
 %>
 
 <script>
@@ -43,6 +62,12 @@
   for (var i = 0; i < postCount; i++) { %>
     {slug:"<%- arr[i].slug %>",title:"<%- arr[i].title %>",date:"<%- arr[i].date %>"}
     <% if (i < postCount - 1) {%>,<% }} %>
+  ];
+  var events = [
+<%
+  for (var i = 0; i < eventCount; i++) { %>
+    {slug:"<%- arrEvents[i].slug %>",title:"<%- arrEvents[i].title %>",date:"<%- arrEvents[i].date %>"}
+    <% if (i < eventCount - 1) {%>,<% }} %>
   ];
 
 </script>
@@ -129,13 +154,13 @@
 </div>
 
 <script>
+  var sidebar = document.querySelector(".sidebar");
   var toShow = posts.filter(function(post) {
     var ms = new Date() - new Date(post.date);
     var days = ms/(1000*60*60*24);
     return days <= 60;
   });
   if (toShow.length > 0) {
-    var sidebar = document.querySelector(".sidebar");
     var postSection = document.createElement("section");
     postSection.classList.add("post-list");
     var inner = "<h3>Recent Articles</h3>\n<ul>";
@@ -146,6 +171,19 @@
     inner += "</ul>";
     postSection.innerHTML = inner;
     sidebar.appendChild(postSection);
+  }
+
+  if (events.length > 0) {
+    var eventSection = document.createElement("section");
+    eventSection.classList.add("post-list");
+    var inner = "<h3>Featured Events</h3>\n<ul>";
+    for (var i = 0; i < events.length; i++) {
+      inner += '<li><a href="/articles/' + events[i].slug + '.html">';
+      inner += events[i].title + '</a></li>\n';
+    }
+    inner += "</ul>";
+    eventSection.innerHTML = inner;
+    sidebar.appendChild(eventSection);
   }
 </script>
 

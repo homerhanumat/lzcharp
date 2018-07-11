@@ -130,6 +130,27 @@ input[type="radio"] {
   background-color: grey;
 }
 
+.tag {
+  cursor: pointer;
+  color: #326;
+  font-size: 80%;
+  background: #eef;
+  padding: 0 2px;
+  border-radius: 4px;
+}
+
+.tag:hover { background: #ddf; }
+
+.tag.selected {
+  background: #cff;
+  color: #166;
+}
+
+.tag.selected:hover,
+.tag.selected:focus {
+  background: #aff;
+}
+
 @media (max-width: 760px) {
   .map-responsive {
     width: 87.5%;

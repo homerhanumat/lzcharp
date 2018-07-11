@@ -46,5 +46,8 @@
   },
   "book-group": {
     "pageTitle": "Book Group"
+  },
+  "event-list": {
+    "pageTitle": "Events"
   }
 }

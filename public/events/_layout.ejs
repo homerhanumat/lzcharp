@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<% 
+  var slug = current.path[1];
+  var title = public.events._data[slug].title;
+%>
+<%- partial("../partial/_header") %>
+<%- partial("../partial/_nav") %>
+<%- partial("../partial/_brand") %>
+<article>
+  <h2>
+    <%- title %>
+  </h2>
+  <%- yield %>
+<%- partial("../partial/_footer") %> 
+</article>
+</html>

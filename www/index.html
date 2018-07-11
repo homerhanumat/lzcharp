@@ -61,7 +61,7 @@
                   <a href="#" id="menuLink3" class="pure-menu-link">Interact</a>
                   <ul class="pure-menu-children">
                     <li class="pure-menu-item"><a href="/contact" class="pure-menu-link">Contact</a></li>
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Events</a></li>
+                    <li class="pure-menu-item"><a href="/event-list" class="pure-menu-link">Events</a></li>
                     <li class="pure-menu-item"><a href="/donate" class="pure-menu-link">Donate</a></li>
                   </ul>
                 </li>
@@ -110,6 +110,11 @@
     {slug:"on-ritual",title:"On Ritual",date:"August 29, 2016"}
     ,
     {slug:"dirty-dust-world",title:"Getting Dirty with the Dust of the World",date:"June 19, 2016"}
+    
+  ];
+  var events = [
+
+    {slug:"fall-2018-retreat",title:"Fall Retreat",date:"November 20, 2018"}
     
   ];
 
@@ -196,13 +201,13 @@
 </div>
 
 <script>
+  var sidebar = document.querySelector(".sidebar");
   var toShow = posts.filter(function(post) {
     var ms = new Date() - new Date(post.date);
     var days = ms/(1000*60*60*24);
     return days <= 60;
   });
   if (toShow.length > 0) {
-    var sidebar = document.querySelector(".sidebar");
     var postSection = document.createElement("section");
     postSection.classList.add("post-list");
     var inner = "<h3>Recent Articles</h3>\n<ul>";
@@ -213,6 +218,19 @@
     inner += "</ul>";
     postSection.innerHTML = inner;
     sidebar.appendChild(postSection);
+  }
+
+  if (events.length > 0) {
+    var eventSection = document.createElement("section");
+    eventSection.classList.add("post-list");
+    var inner = "<h3>Featured Events</h3>\n<ul>";
+    for (var i = 0; i < events.length; i++) {
+      inner += '<li><a href="/articles/' + events[i].slug + '.html">';
+      inner += events[i].title + '</a></li>\n';
+    }
+    inner += "</ul>";
+    eventSection.innerHTML = inner;
+    sidebar.appendChild(eventSection);
   }
 </script>
 

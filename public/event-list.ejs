@@ -1,0 +1,47 @@
+
+<body>
+    <%- partial("/partial/_nav") %>
+<div id="layout" class="pure-g">
+<article class="pure-u-1">
+<%- partial("/partial/_brand") %>
+
+<%
+var allEvents = public.events._data;
+var desired = {};
+for (var slug in allEvents) {
+  if (allEvents[slug].status === "published") {
+    desired[slug] = allEvents[slug];
+  }
+};
+%>
+
+<% function excerpt(content) {
+  if(content.indexOf("<!-- more -->") == -1) return content;
+  else return content.split("<!-- more -->")[0];
+} 
+
+%>
+
+<section>
+    <h2>Events</h2>
+    <div class="postlist">
+        <% for (var slug in desired){ %>
+          <div class="post">
+              <h3><a href="events/<%= slug %>.html"><%= desired[slug].title %></a></h3>
+              <div class="undertitle">
+                  <span class="date"><%= desired[slug].date %></span>
+                  <div class="post-excerpt">
+                      <%- excerpt(partial("events/" + slug)) %>
+                      <span><a class="blog-link" href="events/<%= slug %>.html">Read More &hellip;</a></span>
+                  </div>
+              </div>
+          </div>
+        <% }; %>
+    </div>   
+</section>
+
+  <%- partial("partial/_footer.html") %>
+
+</article>
+</div>
+</body>
