@@ -529,7 +529,7 @@ footer.page-footer p {
   }
 
   footer.split-page hr {
-    width: calc(100% + 1.7em);
+    width: calc(100% + 1.85em);
     margin-left: -2em;
   }
 
