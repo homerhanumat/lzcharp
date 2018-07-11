@@ -107,9 +107,9 @@
 <script>
   var posts = [
 
-    {slug:,title:,date:}
+    {slug:"on-ritual",title:"On Ritual",date:"August 29, 2016"}
     ,
-    {slug:,title:,date:}
+    {slug:"dirty-dust-world",title:"Getting Dirty with the Dust of the World",date:"June 19, 2016"}
     
   ];
 
@@ -195,9 +195,29 @@
 </div>
 </div>
 
+<script>
+  var toShow = posts.filter(function(post) {
+    var ms = new Date() - new Date(post.date);
+    var days = ms/(1000*60*60*24);
+    return days <= 60;
+  });
+  if (toShow.length > 0) {
+    var sidebar = document.querySelector(".sidebar");
+    var postSection = document.createElement("section");
+    postSection.classList.add("post-list");
+    var inner = "<h3>Recent Articles</h3>\n<ul>";
+    for (var i = 0; i < toShow.length; i++) {
+      inner += '<li><a href="/articles/' + toShow[i].slug + '.html">';
+      inner += toShow[i].title + '</a></li>\n';
+    }
+    inner += "</ul>";
+    postSection.innerHTML = inner;
+    sidebar.appendChild(postSection);
+  }
+</script>
 
 
-<footer class="page-footer">
+<footer class="page-footer split-page">
 		<hr class="footer-hr">
 		<ul class="page-footer-menu">
         <li><a href="/">Home</a></li>
