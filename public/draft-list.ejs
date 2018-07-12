@@ -30,20 +30,6 @@ for (var i = 0; i< allTags.length; i++) {
     counts[tag] = counts[tag] ? counts[tag]+1 : 1;
 }
 %>
-
-<section class="">
-    <h2>Tags</h2>
-    <p class="taglist">
-
-        <% for (i=0; i < uniqueTags.length; i++) { %>
-
-        <span class="tag" onclick='filterTag("<%= uniqueTags[i] %>")'><%= uniqueTags[i] %></span>(<%= counts[uniqueTags[i]] %>)
-
-        <% }; %>
-
-    </p>
-  </section>
-
 <% function excerpt(content) {
     if(content.indexOf("<!-- more -->") == -1) return content;
     else return content.split("<!-- more -->")[0];
@@ -59,10 +45,6 @@ for (var i = 0; i< allTags.length; i++) {
               <h3><a href="articles/<%= slug %>.html"><%= desired[slug].title %></a></h3>
               <div class="undertitle">
                   <span class="date"><%= desired[slug].date %></span>
-                  <% var tags = desired[slug].tags.split(",");
-                  for (var i = 0; i < tags.length; i++) { %>
-                  <span class = "tag" onclick='filterTag("<%= tags[i] %>")'><%= tags[i] %></span>
-                  <% }; %>
                   <div class="post-excerpt">
                       <%- excerpt(partial("articles/" + slug)) %>
                       <span><a class="blog-link" href="articles/<%= slug %>.html">Read More &hellip;</a></span>
