@@ -151,6 +151,10 @@ input[type="radio"] {
   background: #aff;
 }
 
+.undertitle {
+  margin-top: 1em;
+}
+
 @media (max-width: 760px) {
   .map-responsive {
     width: 87.5%;

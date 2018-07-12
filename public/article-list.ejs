@@ -60,7 +60,7 @@ for (var i = 0; i< allTags.length; i++) {
           <div class="post", data-tags="<%= desired[slug].tags %>">
               <h3><a href="articles/<%= slug %>.html"><%= desired[slug].title %></a></h3>
               <div class="undertitle">
-                  <span class="date"><%= desired[slug].date %></span>
+                  <span class="list"><%= desired[slug].date %></span>. Tags: 
                   <% var tags = desired[slug].tags.split(",");
                   for (var i = 0; i < tags.length; i++) { %>
                   <span class = "tag" onclick='filterTag("<%= tags[i] %>")'><%= tags[i] %></span>
