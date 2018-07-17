@@ -4,20 +4,23 @@
     "title": "A Single Vegetable Stalk",
     "date" : "July 10, 2018",
     "tags": "zen",
-    "status": "published"
+    "status": "published",
+    "description": "Student dharma talk, Lexington Zeb Center, Homer White"
   },
   "dirty-dust-world": {
     "pageTitle": "Getting Dirty with the Dust of the World",
     "title": "Getting Dirty with the Dust of the World",
     "date" : "June 19, 2016",
     "tags": "zen,soen nakagawa,gardening",
-    "status": "published"
+    "status": "published",
+    "description": "Dharma talk, Lexington Zeb Center, Myong Soen"
   },
   "on-ritual" : {
     "pageTitle": "On Ritual",
     "title": "On Ritual",
     "date" : "August 29, 2016",
     "tags": "zen,ritual, seung sahn",
-    "status": "published"
+    "status": "published",
+    "description": "Dharma talk, Lexington Zeb Center, Myong Soen"
   }
 }

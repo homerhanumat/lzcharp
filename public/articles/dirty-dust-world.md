@@ -1,6 +1,6 @@
 
 
-<label for="mn-intro-dirty" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-intro-dirty" class="margin-toggle"/><span class="marginnote">A dharma talk given by Daniela Myozen Osho at the Lexington Zen Center, June 19, 2016.</span>
+<label for="mn-intro-dirty" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-intro-dirty" class="margin-toggle"/><span class="marginnote">A dharma talk given by Daniela (Myong Soen Son Sa) at the Lexington Zen Center, June 19, 2016.</span>
 <!-- more -->
 
 

@@ -1,4 +1,4 @@
-<label for="mn-bowing-image" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-bowing-image" class="margin-toggle"/><span class="marginnote">A dharma talk given by Daniela Myozen Osho at the Lexington Zen Center, August 29, 2016.</span>
+<label for="mn-bowing-image" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-bowing-image" class="margin-toggle"/><span class="marginnote">A dharma talk given by Daniela (Myong Soen Son Sa) at the Lexington Zen Center, August 29, 2016.</span>
 
 <!-- more -->
 
