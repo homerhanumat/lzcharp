@@ -5,7 +5,7 @@
     "date" : "July 10, 2018",
     "tags": "zen",
     "status": "published",
-    "description": "Student dharma talk, Lexington Zeb Center, Homer White"
+    "description": "Student dharma talk, Lexington Zeb Center, Homer White, dogen, antaiji, tenzokyokan"
   },
   "dirty-dust-world": {
     "pageTitle": "Getting Dirty with the Dust of the World",
@@ -21,6 +21,15 @@
     "date" : "August 29, 2016",
     "tags": "zen,ritual, seung sahn",
     "status": "published",
-    "description": "Dharma talk, Lexington Zeb Center, Myong Soen"
+    "description": "Dharma talk, Lexington Zeb Center, Myong Soen, ritual, seung sahn"
+  },
+  "how-to-survive-a-riptide" : {
+    "pageTitle": "How to Survive a Riptide",
+    "title": "How to Survive a Riptide",
+    "date" : "July 15, 2018",
+    "tags": "zen, conflict, understanding",
+    "status": "draft",
+    "description": "Dharma talk, Lexington Zeb Center, Myong soen and Tyson Davis, conflict, understanding"
   }
+
 }

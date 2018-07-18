@@ -38,6 +38,12 @@ input[type="radio"] {
   display: inline;
 }
 
+.long-blockquote p,
+.long-blockquote li {
+  font-size:  1.2rem;
+  line-height: 1.4rem;
+}
+
 .custom-wrapper {
   /*background-color: #ffd390;*/
   margin-bottom: 1em;
