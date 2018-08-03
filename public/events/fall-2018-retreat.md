@@ -1,3 +1,6 @@
-Our first-ever multi-day retreat will take place at Furnace Mountain, beginning Friday evening September 14 and concluding at noon on Sundy the 16th.<!-- more --> (It will be possible to attend for a single day.)
+Our first-ever multi-day retreat will take place at the beautiful <a href="http://www.furnacemountainzen.org/" target = "_blank">Furnace Mountain Zen Retreat Center</a> in Powell County, beginning Friday evening September 14 and concluding at noon on Sundy the 16th.<!-- more -->
 
-Further details, along with information on how to sign up, are forthcoming soon.  In the meantime, mark your calendars for this wonderful event!
+<label for="mn-bell" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-bell" class="margin-toggle"/><span class="marginnote"><img src="/images/temple_bell.jpg" alt="Temple bell at Furnace Mountain" />Temple wind-bell, Furnace Mountain.</span>
+The cost of the full retreat is $200, or $180 if we receive your completed registration by August 20.  Separate from the retreat fee you are encouraged to make a contribution, known in Buddhist tradition as *dana*, as a sign of appreciation for the work of the teacher.
+
+Please consult the <a href="/documents/LZC_Retreat_2018-09-14.pdf" target = "_blank">registration form</a>, which includes information on what to bring to the retreat, where to mail your registration, etc.
