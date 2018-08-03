@@ -11,9 +11,18 @@ div#banner {
   height: 100%;
 }
 
+footer.page-footer {
+  width:  55%;
+}
+
 .lead-quote {
   font-size: 0.7em;
   line-height: 100%;
+}
+
+ul.page-footer-menu,
+.page-footer p {
+  width:  100%;
 }
 
 ul.page-footer-menu li {
@@ -167,7 +176,7 @@ input[type="radio"] {
     margin: 0 0 12.5% 0;
     padding-bottom: 50%;
   }
-  div#banner {
+  div#banner, footer.page-footer {
     width: 87.5%;
   }
 }

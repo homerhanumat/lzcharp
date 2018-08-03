@@ -533,6 +533,11 @@ footer.page-footer p {
     margin-left: -2em;
   }
 
+  ul.page-footer-menu,
+  .page-footer p {
+    width:  100%;
+  }
+
 /* ------------------------------------------------ */
 /* Media queries
 /* ------------------------------------------------ */
