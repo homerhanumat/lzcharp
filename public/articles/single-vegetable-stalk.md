@@ -27,7 +27,7 @@ Dogen says:
    a single vegetable stalk.</em>
 </blockquote>
 
-"One eye" refers to *prajna*, gone-beyond wisdom, the realization of the unimpeded interprenetration of phenomena, of the sky-like absence of true boundaries between self and other, self and Buddha, of Buddha-nature pervading all&mdashthe realization of that, in the coming forth *as that*. The "two eyes" are your ordinary discriminating consciousness, by which you function in the world.  Though the two eyes may appear to be restricted to the delusory level of name-and-form world, we will see that for Dogen they are how your prajna manifests itself authentically.
+"One eye" refers to *prajna*, gone-beyond wisdom, the realization of the unimpeded interprenetration of phenomena, of the sky-like absence of true boundaries between self and other, self and Buddha, of Buddha-nature pervading all&mdash;the realization of that, in the coming forth *as that*. The "two eyes" are your ordinary discriminating consciousness, by which you function in the world.  Though the two eyes may appear to be restricted to the delusory level of name-and-form world, we will see that for Dogen they are how your prajna manifests itself authentically.
 
 When the cook is provided with a humble ingredient such as a single vegetable stalk, Dogen suggests that with her one eye she should realize herself as the "six-foot body"&mdash;a full-sized statue, in other words:  Buddha herself. And then with her two eyes she should pour all of her Buddha-self into the preparation of that vegetable.  In that way Buddha-nature is no longer something to be thought of as hidden.  It becomes fully manifest, extending to the very tips, as it were, of the stalk, making it the finest of cream soups.
 
