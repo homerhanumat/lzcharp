@@ -40,7 +40,7 @@ We recite these vows every Sunday. I recite them when I meditate at home.  For t
 
 *Sentient beings.* Some centers translate this as "all beings." I like that better. Let's save everything, sentient or not. Let's not be so picky. 
 
-*Greed, hatred and ignorance.* In Buddhism, these are known as The Three Poisons. Zen Master Yoda from Star Wars talked about these too. Even a long time ago in a galaxy far, far, away they knew how these destructive thoughts and emotions lead to suffering. They keep popping up, and we vow to keep abandoning them&emdash;to not let them take root.
+*Greed, hatred and ignorance.* In Buddhism, these are known as The Three Poisons. Zen Master Yoda from Star Wars talked about these too. Even a long time ago in a galaxy far, far, away they knew how these destructive thoughts and emotions lead to suffering. They keep popping up, and we vow to keep abandoning them&mdash;to not let them take root.
 
 *Dharma gates are countless.* What are dharma gates? They are entrances into teaching. They are lessons. They are ways to see the world. And they are everywhere and in everything. If you were around family this Christmas then you probably encountered what seemed like an endless supply. So we vow to awake to the lessons that are everywhere.
 
