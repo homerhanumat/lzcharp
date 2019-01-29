@@ -1,9 +1,8 @@
-<label for="mn-intro-four" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-intro-four" class="margin-toggle"/><span class="marginnote">A dharma talk given by Tyson Davis at the Lexington Zen Center, December 30, 2018.</span>
+<label for="mn-intro-four" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-intro-four" class="margin-toggle"/><span class="marginnote">A dharma talk given by Tyson Davis at the Lexington Zen Center, December 30, 2018.  The leading case is Number 89 from the *Blue Cliff Record*; also *Book of Serenity*, Case 54.</span>
 <!-- more -->
 
-Sensei David Parks, the teacher of the Thursday night Zen group I sit with, often says when talking about any koan, "This is one of my favorite koans." After working with koans more intensely I understand what he means. So, I'm going to read one of my favorites:  Case 89 of the Blue Cliff Record.
-
 >**The Hands and Eyes of the Bodhisattva of Great Compassion**
+
 
 >Yun Yen asked Tao Wu, "What does the Bodhisattva of Great Compassion use so many hands and eyes for?"
 
