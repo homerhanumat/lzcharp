@@ -109,7 +109,7 @@
 
     {slug:"the-four-great-vows",title:"The Four Great Vows",date:"December 30, 2018"}
     ,
-    {slug:"i-alone-am-the-holy-one",title:""I Alone am the Holy One"",date:"November 11, 2018"}
+    {slug:"i-alone-am-the-holy-one",title:"'I Alone am the Holy One'",date:"November 11, 2018"}
     ,
     {slug:"single-vegetable-stalk",title:"A Single Vegetable Stalk",date:"July 10, 2018"}
     
@@ -189,7 +189,7 @@
   var toShow = posts.filter(function(post) {
     var ms = new Date() - new Date(post.date);
     var days = ms/(1000*60*60*24);
-    return days <= 60;
+    return days <= 90;
   });
   if (toShow.length > 0) {
     var postSection = document.createElement("section");

@@ -141,7 +141,7 @@
   var toShow = posts.filter(function(post) {
     var ms = new Date() - new Date(post.date);
     var days = ms/(1000*60*60*24);
-    return days <= 60;
+    return days <= 90;
   });
   if (toShow.length > 0) {
     var postSection = document.createElement("section");

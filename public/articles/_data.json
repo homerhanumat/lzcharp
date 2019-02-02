@@ -1,4 +1,20 @@
 {
+  "the-four-great-vows" : {
+    "pageTitle": "The Four Great Vows",
+    "title": "The Four Great Vows",
+    "date" : "December 30, 2018",
+    "tags": "zen, fixing yourself, four great vows",
+    "status": "published",
+    "description": "Dharma talk, Lexington Zeb Center, Tyson Davis, blue cliff record, avalokitsehvara"
+  },
+  "i-alone-am-the-holy-one" : {
+    "pageTitle": "Holy One",
+    "title": "'I Alone am the Holy One'",
+    "date" : "November 11, 2018",
+    "tags": "zen, fixing yourself, four great vows",
+    "status": "published",
+    "description": "Dharma talk, Lexington Zeb Center, Tyson Davis, blue cliff record, avalokitsehvara"
+  },
   "single-vegetable-stalk": {
     "pageTitle": "A Single Vegetable Stalk",
     "title": "A Single Vegetable Stalk",
@@ -30,21 +46,5 @@
     "tags": "zen, conflict, understanding",
     "status": "draft",
     "description": "Dharma talk, Lexington Zeb Center, Myong soen and Tyson Davis, conflict, understanding"
-  },
-  "the-four-great-vows" : {
-    "pageTitle": "The Four Great Vows",
-    "title": "The Four Great Vows",
-    "date" : "December 30, 2018",
-    "tags": "zen, fixing yourself, four great vows",
-    "status": "published",
-    "description": "Dharma talk, Lexington Zeb Center, Tyson Davis, blue cliff record, avalokitsehvara"
-  },
-  "i-alone-am-the-holy-one" : {
-    "pageTitle": "Holy One",
-    "title": "\"I Alone am the Holy One\"",
-    "date" : "November 11, 2018",
-    "tags": "zen, fixing yourself, four great vows",
-    "status": "published",
-    "description": "Dharma talk, Lexington Zeb Center, Tyson Davis, blue cliff record, avalokitsehvara"
   }
 }
