@@ -35,7 +35,7 @@ Here at the Lexington Zen Center in a few minutes we will be reciting four resol
 
 >The Buddha-Way is uncontrived: I vow to embody it fully.
 
-We recite these vows every Sunday. I recite them when I meditate at home.  For the first three or four years I recited them, I never questioned what they really meant.  Heck, it took me several weeks to even get what people were saying since they aren't written down. Eventually I memorized them, but since everyone else was saying them, I just repeated them without thinking too hard about them. But eventually I decided I better look into them. So let's take a closer look at them now.
+We recite these vows every Sunday. I recite them when I meditate at home.  For the first three or four years I recited them, I never questioned what they really meant.  Heck, it took me several weeks to even get what people were saying since they aren't written down. Eventually I memorized them, but since everyone else was saying them, I just repeated them without thinking too hard about them. But eventually I decided I better look into them. So let's take a closer look at them now &hellip;
 
 *Sentient beings.* Some centers translate this as "all beings." I like that better. Let's save everything, sentient or not. Let's not be so picky. 
 
