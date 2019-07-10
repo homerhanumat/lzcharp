@@ -1,0 +1,6 @@
+Good news!  We decided to have a summer retreat at <a href="http://www.furnacemountainzen.org/" target = "_blank">Furnace Mountain Zen Retreat Center</a> in Powell County, beginning Friday evening July 9 at 7:00pm and concluding around 1:30pm on Sunday the 21st.<!-- more -->
+
+<label for="mn-bell" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-bell" class="margin-toggle"/><span class="marginnote"><img src="/images/fm_temple_view.jpg" alt="Temple bell at Furnace Mountain" />View from temple, Furnace Mountain.</span>
+The cost of the full retreat is $180, or $90 if you only plan to attend on Saturday.  Separate from the retreat fee you are encouraged to make a contribution, known in Buddhist tradition as *dana*, as a sign of appreciation for the work of the teacher.
+
+Please consult the <a href="/documents/LZC_July_2019.pdf" target = "_blank">registration form</a>, which includes information on what to bring to the retreat, possible arrival times if you only plan to attend on Saturday, where to mail your registration, etc.

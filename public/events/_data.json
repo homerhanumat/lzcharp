@@ -1,9 +1,9 @@
 {
-  "fall-2018-retreat": {
-    "pageTitle": "fall-2018-retreat",
-    "title": "September Retreat",
-    "date" : "September 14, 2018",
+  "july-2019-retreat": {
+    "pageTitle": "july-2019-retreat",
+    "title": "July 2019 Retreat",
+    "date" : "July 19, 2019",
     "status": "published",
-    "priority": "none"
+    "priority": "featured"
   }
 }
