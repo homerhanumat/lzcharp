@@ -1,4 +1,4 @@
-We are pleased to invite everyone to a half-day retreat at Lexington Zen Center.  Retreat beings at 9:30am on September 21 and ends by 12:30pm on the same day.  <!-- more -->There will be an optional meal afterwards (bring your own sack-lunch to store in the fridge).
+We are pleased to invite everyone to a half-day retreat at Lexington Zen Center.  Retreat beings at 9:00am on September 21 and ends by 12:30pm on the same day.  <!-- more -->There will be an optional meal afterwards (bring your own sack-lunch to store in the fridge).
 
 <label for="mn-bell" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-bell" class="margin-toggle"/><span class="marginnote"><img src="/images/cushions.jpeg" alt="A pile of meditation cushions!" /></span>
 The cost of the retreat is $35.  Separate from the retreat fee you are encouraged to make a contribution, known in Buddhist tradition as *dana*, as a sign of appreciation for the work of the teacher.
