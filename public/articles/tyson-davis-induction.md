@@ -15,8 +15,8 @@ I want to thank Roshi David Parks, with whom I practice on Thursday nights. His 
 
 I debate about whether to thank or curse Muhan Shim Zen Master&mdash;Daniela.  She has helped my heart break open. When I first started Zen Practice, that is the opposite of what I wanted. But here we are.
 
-And most of all, I want to thank all of you as the sangha. Thank you for sitting with me, and supporting me in my practice. I don't know where I would be without ALL of you.
-One time, Daniela quoted Thich Nhat Hanh: "In the future the sangha will be the teacher."  Originally I strongly rejected that. Sounded like new age crap. But recently I've realized that it is true NOW. Each and every one of you in this room has taught me something. Every one. Some of you I have only known a short time. Some of you I have known a long time. I have learned something from each of you. And I very sincerely thank you for your teaching. I promise to try to continue to stay receptive, stay open-hearted, and continue to learn from you.
+And most of all, I want to thank all of you as the Sangha. Thank you for sitting with me, and supporting me in my practice. I don't know where I would be without ALL of you.
+One time, Daniela quoted Thich Nhat Hanh: "The next Buddha may be the Sangha."  Originally I strongly rejected that. Sounded like new age crap. But recently I've realized that it is true NOW. Each and every one of you in this room has taught me something. Every one. Some of you I have only known a short time. Some of you I have known a long time. I have learned something from each of you. And I very sincerely thank you for your teaching. I promise to try to continue to stay receptive, stay open-hearted, and continue to learn from you.
 
 So:  Zen is easy, just don't grasp or push away. There is nothing else to teach. So I can resign now!
 
